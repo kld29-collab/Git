@@ -8,15 +8,6 @@
   - (list others as needed)
 git clone </Users/kristendelancey/my-repo/HW2>
 
-
-### Installation
-
-1. Clone the repository:
-
-  ```
-  git clone <your-repo-url>
-  ```
-
 ## Install Dependencies
 
 1. Make sure you have Python 3.x installed (or your project's language).

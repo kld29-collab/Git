@@ -2,7 +2,6 @@
 # Source environment variables
 
 source .env
-echo "DEBUG: OPENAI_API_KEY is '$OPENAI_API_KEY'"
 
 # Example usage: ./tts.sh "Put text here " output.mp3
 
