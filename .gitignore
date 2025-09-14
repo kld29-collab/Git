@@ -1,3 +1,5 @@
+# Ignore local Python virtual environment
+env/
 # Ignore .env files containing secrets
 .env
 .env.*

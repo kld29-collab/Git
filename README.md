@@ -8,20 +8,23 @@
   - (list others as needed)
 git clone </Users/kristendelancey/my-repo/HW2>
 
-## Install Dependencies
+## Python Virtual Environment & Install Dependencies
 
-1. Make sure you have Python 3.x installed (or your project's language).
-2. Install the required packages using pip:
-
+1. Make sure you have Python 3.x installed.
+2. Create a local virtual environment:
   ```
-  pip install -r requirements.txt
+  python3 -m venv env
   ```
-
-  or, for Node.js projects:
-
+3. Activate the virtual environment:
   ```
-  npm install
+  source env/bin/activate
   ```
+4. Upgrade pip and install required packages:
+  ```
+  python -m pip install --upgrade pip
+  python -m pip install --upgrade openai "openai[voice_helpers]" sounddevice numpy python-dotenv
+  ```
+5. In VS Code, use the “Python: Select Interpreter” command and choose the interpreter from your new env folder (./env/bin/python).
 
 ## Environment Variables
 
