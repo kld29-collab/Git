@@ -3,3 +3,6 @@ env/
 # Ignore .env files containing secrets
 .env
 .env.*
+
+# macOS Finder metadata
+.DS_Store
